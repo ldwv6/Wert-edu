@@ -1,10 +1,16 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1">
   <diagram name="Page-1" id="d66fe2ae-3e9f-cf2f-6d29-e24063ad5d60">
-    <mxGraphModel dx="4780" dy="3467" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="8270" dy="5625" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="PqdqEDUBdjDF1gWttpi3-37" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 11층 1열 12렉 6대&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;swimlaneLine=1;" vertex="1" parent="1">
+        <mxCell id="PqdqEDUBdjDF1gWttpi3-207" value="Corporate data center" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_corporate_data_center;strokeColor=#7D8998;fillColor=default;verticalAlign=top;align=left;spacingLeft=30;fontColor=#5A6C86;dashed=0;rounded=1;arcSize=50;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-330" width="5650" height="2315.75" as="geometry" />
+        </mxCell>
+        <mxCell id="PqdqEDUBdjDF1gWttpi3-190" value="대역 구분&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;애플리케이션용&amp;nbsp;&lt;/div&gt;&lt;div&gt;112,175.148.xxx/24&lt;/div&gt;&lt;div&gt;211.62.58.xxx/24&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;데이타용 - ES and ETC&amp;nbsp;&lt;/div&gt;&lt;div&gt;43.246.154.xxx/24&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=30;fontColor=default;" vertex="1" parent="PqdqEDUBdjDF1gWttpi3-207">
+          <mxGeometry x="60" y="50" width="440" height="360" as="geometry" />
+        </mxCell>
+        <mxCell id="PqdqEDUBdjDF1gWttpi3-37" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 11층 1열 12렉 6대&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=default;gradientColor=none;swimlaneLine=1;" vertex="1" parent="1">
           <mxGeometry x="170" y="560" width="240" height="430" as="geometry">
             <mxRectangle x="170" y="560" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -20,7 +26,7 @@
         <mxCell id="PqdqEDUBdjDF1gWttpi3-41" value="&lt;br&gt;43.246.154.6&#x9;&#x9;HP DL360 Gen9&#x9;&lt;br&gt;43.246.154.7&#x9;&#x9;HP DL360 Gen9&#x9;&lt;br&gt;43.246.154.8&#x9;&#x9;HP DL360 Gen9&#x9;&lt;br&gt;43.246.154.9&#x9;&#x9;Dell R620&#x9;&lt;br&gt;43.246.154.10&#x9;&#x9;Dell R620&#x9;&lt;br&gt;43.246.154.12&#x9;&#x9;HP DL320e Gen8v2&#x9;&lt;br&gt;43.246.154.13&#x9;&#x9;HP DL320e Gen8v2&#x9;&lt;br&gt;43.246.154.14&#x9;&#x9;HP DL320e Gen8v2&#x9;&lt;br&gt;43.246.154.15&#x9;&#x9;Dell R620&#x9;&lt;br&gt;43.246.155.227&#x9;&#x9;HP DL360 Gen9&#x9;&lt;br&gt;43.246.155.228&#x9;&#x9;HP DL360 Gen9&#x9;&lt;br&gt;43.246.155.248&#x9;&#x9;HP DL360 Gen9&#x9;&lt;br&gt;43.246.155.249&#x9;&#x9;HP DL360 Gen9&#x9;&lt;br&gt;43.246.155.250&#x9;&#x9;HP DL360 Gen9&#x9;&lt;br&gt;43.246.155.251&#x9;&#x9;HP DL360 Gen9&#x9;&lt;br&gt;43.246.155.252&#x9;&#x9;Dell R630&#x9;&lt;br&gt;43.246.155.253&#x9;&#x9;Dell R630&#x9;&lt;br&gt;112.175.148.6&#x9;&#x9;Dell R630&#x9;&lt;br&gt;112.175.148.7&#x9;&#x9;Dell R630&#x9;&lt;br&gt;112.175.148.19&#x9;&#x9;Dell R630&#x9;&lt;br&gt;112.175.148.20&#x9;&#x9;Dell R630&#x9;&lt;br&gt;211.62.58.28&#x9;&#x9;Dell R730xd 2U&#x9;&lt;br&gt;211.62.58.194&#x9;&#x9;Dell R630&#x9;&lt;br&gt;211.62.58.195&#x9;&#x9;Dell R630" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="PqdqEDUBdjDF1gWttpi3-38">
           <mxGeometry x="20" y="20" width="190" height="380" as="geometry" />
         </mxCell>
-        <mxCell id="PqdqEDUBdjDF1gWttpi3-43" value="" style="swimlane;whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;swimlaneLine=1;" vertex="1" parent="1">
+        <mxCell id="PqdqEDUBdjDF1gWttpi3-43" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;1층 2열 10렉 3대&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=0;align=center;verticalAlign=top;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;swimlaneLine=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="560" width="250" height="430" as="geometry">
             <mxRectangle x="170" y="560" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -28,7 +34,7 @@
         <mxCell id="PqdqEDUBdjDF1gWttpi3-42" value="11층 2열 10렉 3대&#x9;&#x9;&#x9;&#xa;112.175.148.15&#x9;&#x9;Dell R730xd 2U&#x9;&#xa;112.175.148.42&#x9;&#x9;Dell R730xd 2U&#x9;&#xa;112.175.148.61&#x9;&#x9;Dell R730xd 2U" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="PqdqEDUBdjDF1gWttpi3-43">
           <mxGeometry x="25" y="30" width="200" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="PqdqEDUBdjDF1gWttpi3-47" value="" style="swimlane;whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;swimlaneLine=1;" vertex="1" parent="1">
+        <mxCell id="PqdqEDUBdjDF1gWttpi3-47" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;11층 2열 16렉 25대&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=0;align=center;verticalAlign=top;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;swimlaneLine=1;" vertex="1" parent="1">
           <mxGeometry x="1050" y="560" width="260" height="430" as="geometry">
             <mxRectangle x="170" y="560" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -36,7 +42,7 @@
         <mxCell id="PqdqEDUBdjDF1gWttpi3-51" value="11층 2열 16렉 25대 &#x9;&#x9;&#x9;&#xa;211.62.58.3&#x9;&#x9;Dell R630&#x9;&#xa;211.62.58.4&#x9;&#x9;Dell R630&#x9;&#xa;211.62.58.5&#x9;&#x9;Dell R630&#x9;&#xa;211.62.58.6&#x9;&#x9;Dell R630&#x9;&#xa;211.62.58.7&#x9;&#x9;Dell R630&#x9;&#xa;211.62.58.8&#x9;&#x9;Dell R630&#x9;&#xa;211.62.58.9&#x9;&#x9;Dell R630&#x9;&#xa;211.62.58.10&#x9;&#x9;Dell R630&#x9;&#xa;211.62.58.11&#x9;&#x9;Dell R630&#x9;&#xa;211.62.58.12&#x9;&#x9;Dell R630&#x9;&#xa;211.62.58.13&#x9;&#x9;Dell R630&#x9;&#xa;211.62.58.14&#x9;&#x9;Dell R630&#x9;&#xa;211.62.58.17&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;211.62.58.18&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;211.62.58.19&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;211.62.58.20&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;211.62.58.21&#x9;&#x9;HP DL320e Gen8v2&#x9;&#xa;211.62.58.22&#x9;&#x9;HP DL320e Gen8v2&#x9;&#xa;211.62.58.23&#x9;&#x9;HP DL320e Gen8v2&#x9;&#xa;211.62.58.24&#x9;&#x9;HP DL320e Gen8v2&#x9;&#xa;211.62.58.196&#x9;&#x9;Dell R630&#x9;&#xa;211.62.58.197&#x9;&#x9;Lenovo X3500 M5&#x9;&#xa;211.62.58.212&#x9;&#x9;HP DL320e Gen8v2&#x9;&#xa;211.62.58.217&#x9;&#x9;HP DL360p Gen8&#x9;&#xa;211.62.58.222&#x9;&#x9;Dell R620" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="PqdqEDUBdjDF1gWttpi3-47">
           <mxGeometry x="30" y="29" width="230" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="PqdqEDUBdjDF1gWttpi3-55" value="" style="swimlane;whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;swimlaneLine=1;" vertex="1" parent="1">
+        <mxCell id="PqdqEDUBdjDF1gWttpi3-55" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;11층 3열 9렉 14대&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=0;align=center;verticalAlign=top;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;swimlaneLine=1;" vertex="1" parent="1">
           <mxGeometry x="160" y="1450" width="260" height="430" as="geometry">
             <mxRectangle x="170" y="560" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -47,7 +53,7 @@
         <mxCell id="PqdqEDUBdjDF1gWttpi3-180" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;curved=1;fillColor=#1ba1e2;strokeColor=#006EAF;" edge="1" parent="1" source="PqdqEDUBdjDF1gWttpi3-57" target="PqdqEDUBdjDF1gWttpi3-179">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PqdqEDUBdjDF1gWttpi3-57" value="" style="swimlane;whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;swimlaneLine=1;" vertex="1" parent="1">
+        <mxCell id="PqdqEDUBdjDF1gWttpi3-57" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;11층 2열 17렉 2대&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;swimlaneLine=1;" vertex="1" parent="1">
           <mxGeometry x="4390" y="164.25" width="230" height="430" as="geometry">
             <mxRectangle x="170" y="560" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -58,7 +64,7 @@
         <mxCell id="PqdqEDUBdjDF1gWttpi3-92" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.firewall;rounded=1;arcSize=50;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="PqdqEDUBdjDF1gWttpi3-57">
           <mxGeometry x="55" y="179" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="PqdqEDUBdjDF1gWttpi3-60" value="" style="swimlane;whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;swimlaneLine=1;" vertex="1" parent="1">
+        <mxCell id="PqdqEDUBdjDF1gWttpi3-60" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;11층 3열 10렉 14대&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=0;align=center;verticalAlign=top;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;swimlaneLine=1;" vertex="1" parent="1">
           <mxGeometry x="450" y="1450" width="260" height="430" as="geometry">
             <mxRectangle x="170" y="560" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -66,7 +72,7 @@
         <mxCell id="PqdqEDUBdjDF1gWttpi3-66" value="11층 3열 10렉 14대&#x9;&#x9;&#x9;&#xa;211.62.58.29&#x9;&#x9;Dell R730xd 2U&#x9;&#xa;211.62.58.213&#x9;&#x9;HP 320e Gen8v2&#x9;&#xa;211.62.58.214&#x9;&#x9;HP 320e Gen8v2&#x9;&#xa;211.62.58.221&#x9;&#x9;Dell R630&#x9;&#xa;112.175.148.5&#x9;&#x9;HP 320e Gen8v2&#x9;&#xa;112.175.148.14&#x9;&#x9;Micronics 2U / 코로&#x9;&#xa;112.175.148.17&#x9;&#x9;HP DL80 Gen9 2U / 코로&#x9;&#xa;112.175.148.22&#x9;&#x9;Dell R620&#x9;&#xa;112.175.148.27&#x9;&#x9;Supermicro 2U&#x9;&#xa;112.175.148.28&#x9;&#x9;Supermicro 2U&#x9;&#xa;112.175.148.32&#x9;&#x9;Supermicro 2U&#x9;&#xa;112.175.148.33&#x9;&#x9;Supermicro 2U&#x9;&#xa;112.175.148.38&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;112.175.148.39&#x9;&#x9;HP DL360 Gen9" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="PqdqEDUBdjDF1gWttpi3-60">
           <mxGeometry x="10" y="40" width="250" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="PqdqEDUBdjDF1gWttpi3-61" value="" style="swimlane;whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;swimlaneLine=1;" vertex="1" parent="1">
+        <mxCell id="PqdqEDUBdjDF1gWttpi3-61" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;11층 3열 11렉 19대&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=0;align=center;verticalAlign=top;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;swimlaneLine=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="1450" width="250" height="430" as="geometry">
             <mxRectangle x="170" y="560" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -74,7 +80,7 @@
         <mxCell id="PqdqEDUBdjDF1gWttpi3-67" value="11층 3열 11렉 19대&#x9;&#x9;&#x9;&#xa;112.175.148.10&#x9;&#x9;HP 320e Gen8v2&#x9;&#xa;112.175.148.13&#x9;&#x9;IBM X3550 M4&#x9;&#xa;112.175.148.16&#x9;&#x9;Supermicro 2U&#x9;&#xa;112.175.148.21&#x9;&#x9;HP 320e Gen8v2&#x9;&#xa;211.62.58.26&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;112.175.148.36&#x9;&#x9;Supermicro 4U / 코로&#x9;&#xa;112.175.148.41&#x9;&#x9;HP 320e Gen8v2&#x9;&#xa;112.175.148.43&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;112.175.148.44&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;112.175.148.45&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;112.175.148.47&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;112.175.148.48&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;112.175.148.51&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;112.175.148.52&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;112.175.148.54&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;112.175.148.55&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;112.175.148.56&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;112.175.148.57&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.154.20&#x9;&#x9;HP DL360 Gen9" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="PqdqEDUBdjDF1gWttpi3-61">
           <mxGeometry x="20" y="40" width="230" height="310" as="geometry" />
         </mxCell>
-        <mxCell id="PqdqEDUBdjDF1gWttpi3-62" value="" style="swimlane;whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;swimlaneLine=1;" vertex="1" parent="1">
+        <mxCell id="PqdqEDUBdjDF1gWttpi3-62" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;11층 3열 12렉 22대&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=0;align=center;verticalAlign=top;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;swimlaneLine=1;" vertex="1" parent="1">
           <mxGeometry x="1050" y="1450" width="260" height="430" as="geometry">
             <mxRectangle x="170" y="560" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -82,7 +88,7 @@
         <mxCell id="PqdqEDUBdjDF1gWttpi3-68" value="11층 3열 12렉 22대&#x9;&#x9;&#x9;&#xa;200710 JBOD&#x9;&#x9;Supermicro JDOB/2U / 코로&#x9;&#xa;43.246.155.247&#x9;&#x9;Supermicro 2U&#x9;&#xa;211.62.58.25&#x9;&#x9;Dell R630&#x9;&#xa;211.62.58.27&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;211.62.58.30&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;211.62.58.198&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;211.62.58.199&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;211.62.58.200&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;211.62.58.201&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;211.62.58.202&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;211.62.58.203&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;211.62.58.204&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;211.62.58.205&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;211.62.58.206&#x9;&#x9;Dell R620&#x9;&#xa;211.62.58.207&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;211.62.58.208&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;211.62.58.209&#x9;&#x9;Dell R620&#x9;&#xa;211.62.58.211&#x9;&#x9;Dell R620&#x9;&#xa;211.62.58.215&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;211.62.58.216&#x9;&#x9;HP DL380 Gen9 2U&#x9;&#xa;211.62.58.218&#x9;&#x9;Dell R620&#x9;&#xa;211.62.58.219&#x9;&#x9;HP DL360 Gen9" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="PqdqEDUBdjDF1gWttpi3-62">
           <mxGeometry x="10" y="40" width="250" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="PqdqEDUBdjDF1gWttpi3-63" value="" style="swimlane;whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;swimlaneLine=1;" vertex="1" parent="1">
+        <mxCell id="PqdqEDUBdjDF1gWttpi3-63" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;11층 3열 13렉 4대&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;swimlaneLine=1;" vertex="1" parent="1">
           <mxGeometry x="1355" y="1450" width="230" height="430" as="geometry">
             <mxRectangle x="170" y="560" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -90,7 +96,7 @@
         <mxCell id="PqdqEDUBdjDF1gWttpi3-70" value="11층 3열 13렉 4대&#x9;&#x9;&#x9;&#xa;43.246.154.21&#x9;&#x9;Dell R730xd 2U&#x9;&#xa;43.246.154.22&#x9;&#x9;Dell R730xd 2U&#x9;&#xa;43.246.154.23&#x9;&#x9;Dell R730xd 2U&#x9;&#xa;43.246.154.28&#x9;&#x9;HP 320e Gen8v2" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="PqdqEDUBdjDF1gWttpi3-63">
           <mxGeometry x="15" y="40" width="210" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="PqdqEDUBdjDF1gWttpi3-64" value="" style="swimlane;whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;swimlaneLine=1;" vertex="1" parent="1">
+        <mxCell id="PqdqEDUBdjDF1gWttpi3-64" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;11층 3열 14렉 4대&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=0;align=center;verticalAlign=top;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;swimlaneLine=1;" vertex="1" parent="1">
           <mxGeometry x="1640" y="1450" width="230" height="430" as="geometry">
             <mxRectangle x="170" y="560" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -98,7 +104,7 @@
         <mxCell id="PqdqEDUBdjDF1gWttpi3-71" value="11층 3열 14렉 4대&#x9;&#x9;&#x9;&#xa;43.246.154.24&#x9;&#x9;Dell R730xd 2U&#x9;&#xa;43.246.154.25&#x9;&#x9;Dell R730xd 2U&#x9;&#xa;43.246.154.26&#x9;&#x9;Dell R730xd 2U&#x9;&#xa;43.246.154.27&#x9;&#x9;Dell R730xd 2U" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="PqdqEDUBdjDF1gWttpi3-64">
           <mxGeometry x="20" y="40" width="200" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="PqdqEDUBdjDF1gWttpi3-72" value="" style="swimlane;whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;swimlaneLine=1;" vertex="1" parent="1">
+        <mxCell id="PqdqEDUBdjDF1gWttpi3-72" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;11층 3열 16렉 25대&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;swimlaneLine=1;" vertex="1" parent="1">
           <mxGeometry x="2130" y="559" width="260" height="431" as="geometry">
             <mxRectangle x="170" y="560" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -106,7 +112,7 @@
         <mxCell id="PqdqEDUBdjDF1gWttpi3-84" value="11층 3열 16렉 25대&#x9;&#x9;&#x9;&#xa;43.246.155.200&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.201&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.202&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.203&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.204&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.205&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.206&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.207&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.208&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.209&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.210&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.211&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.212&#x9;&#x9;HP 320e Gen8v2&#x9;&#xa;43.246.155.213&#x9;&#x9;HP 320e Gen8v2&#x9;&#xa;43.246.155.214&#x9;&#x9;HP 320e Gen8v2&#x9;&#xa;43.246.155.215&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.216&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.217&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.218&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.219&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.220&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.221&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.222&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.223&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.224&#x9;&#x9;HP DL360 Gen9" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="PqdqEDUBdjDF1gWttpi3-72">
           <mxGeometry x="20" y="31" width="210" height="400" as="geometry" />
         </mxCell>
-        <mxCell id="PqdqEDUBdjDF1gWttpi3-74" value="" style="swimlane;whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;swimlaneLine=1;" vertex="1" parent="1">
+        <mxCell id="PqdqEDUBdjDF1gWttpi3-74" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;11층 3열 17렉 22대&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;swimlaneLine=1;" vertex="1" parent="1">
           <mxGeometry x="2420" y="559" width="260" height="430" as="geometry">
             <mxRectangle x="170" y="560" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -114,7 +120,7 @@
         <mxCell id="PqdqEDUBdjDF1gWttpi3-86" value="11층 3열 17렉 22대&#x9;&#x9;&#x9;&#xa;211.62.58.15&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;211.62.58.16&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;112.175.148.29&#x9;&#x9;Dell R730xd 2U&#x9;&#xa;112.175.148.30&#x9;&#x9;Supermicro 2U&#x9;&#xa;112.175.148.62&#x9;&#x9;Supermicro 2U&#x9;&#xa;43.246.155.225&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.226&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.230&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.231&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.232&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.233&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.234&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.235&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.236&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.237&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.240&#x9;&#x9;Supermicro 2U&#x9;&#xa;43.246.155.241&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.242&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.243&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.244&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.245&#x9;&#x9;HP DL360 Gen9&#x9;&#xa;43.246.155.246&#x9;&#x9;HP DL360 Gen9" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="PqdqEDUBdjDF1gWttpi3-74">
           <mxGeometry x="25" y="31" width="210" height="350" as="geometry" />
         </mxCell>
-        <mxCell id="PqdqEDUBdjDF1gWttpi3-76" value="" style="swimlane;whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;swimlaneLine=1;" vertex="1" parent="1">
+        <mxCell id="PqdqEDUBdjDF1gWttpi3-76" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;1층 7열 14렉 5대&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=0;align=center;verticalAlign=top;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;swimlaneLine=1;" vertex="1" parent="1">
           <mxGeometry x="4680" y="900" width="270" height="430" as="geometry">
             <mxRectangle x="170" y="560" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -122,7 +128,7 @@
         <mxCell id="PqdqEDUBdjDF1gWttpi3-87" value="11층 7열 14렉 5대&#x9;&#x9;&#x9;&#xa;192.168.100.101&#x9;&#x9;HP DL360 G10&#x9;&#xa;192.168.100.111&#x9;&#x9;HP DL360 G10&#x9;&#xa;192.168.100.121&#x9;&#x9;HP DL380 G10 PLUS/2U&#x9;&#xa;192.168.100.122&#x9;&#x9;HP DL380 G10 PLUS/2U&#x9;&#xa;192.168.100.123&#x9;&#x9;HP DL380 G10 PLUS/2U" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="PqdqEDUBdjDF1gWttpi3-76">
           <mxGeometry x="10" y="31" width="260" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="PqdqEDUBdjDF1gWttpi3-78" value="" style="swimlane;whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;swimlaneLine=1;" vertex="1" parent="1">
+        <mxCell id="PqdqEDUBdjDF1gWttpi3-78" value="&lt;span style=&quot;font-weight: 400;&quot;&gt;11층 7열 15렉 5대&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=0;align=center;verticalAlign=top;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;swimlaneLine=1;" vertex="1" parent="1">
           <mxGeometry x="5010" y="900" width="280" height="430" as="geometry">
             <mxRectangle x="170" y="560" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -130,7 +136,7 @@
         <mxCell id="PqdqEDUBdjDF1gWttpi3-89" value="11층 7열 15렉 5대&#x9;&#x9;&#x9;&#xa;192.168.100.102&#x9;&#x9;HP DL360 G10&#x9;&#xa;192.168.100.112&#x9;&#x9;HP DL360 G10&#x9;&#xa;192.168.100.124&#x9;&#x9;HP DL380 G10 PLUS/2U&#x9;&#xa;192.168.100.125&#x9;&#x9;HP DL380 G10 PLUS/2U&#x9;&#xa;192.168.100.126&#x9;&#x9;HP DL380 G10 PLUS/2U" style="text;whiteSpace=wrap;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" vertex="1" parent="PqdqEDUBdjDF1gWttpi3-78">
           <mxGeometry x="20" y="41" width="260" height="110" as="geometry" />
         </mxCell>
-        <mxCell id="PqdqEDUBdjDF1gWttpi3-80" value="" style="swimlane;whiteSpace=wrap;html=1;rounded=0;align=left;verticalAlign=top;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;swimlaneLine=1;" vertex="1" parent="1">
+        <mxCell id="PqdqEDUBdjDF1gWttpi3-80" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;11층 7열 16렉 6대&lt;/span&gt;" style="swimlane;whiteSpace=wrap;html=1;rounded=0;align=center;verticalAlign=top;arcSize=50;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=none;gradientColor=none;swimlaneLine=1;" vertex="1" parent="1">
           <mxGeometry x="5340" y="900" width="275" height="430" as="geometry">
             <mxRectangle x="170" y="560" width="130" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -141,7 +147,7 @@
         <mxCell id="PqdqEDUBdjDF1gWttpi3-135" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="PqdqEDUBdjDF1gWttpi3-96" target="PqdqEDUBdjDF1gWttpi3-99">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PqdqEDUBdjDF1gWttpi3-96" value="Back Bone&amp;nbsp; /&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;L3&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;arcSize=50;fontFamily=Helvetica;fontSize=29;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="PqdqEDUBdjDF1gWttpi3-96" value="Back Bone&amp;nbsp; /&amp;nbsp;&lt;span style=&quot;&quot;&gt;L3 - Viaweb (업체)&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;arcSize=50;fontFamily=Helvetica;fontSize=29;fontColor=default;fillColor=#F2F2F2;gradientColor=none;labelBackgroundColor=default;" vertex="1" parent="1">
           <mxGeometry x="1800" y="-390" width="485" height="120" as="geometry" />
         </mxCell>
         <mxCell id="PqdqEDUBdjDF1gWttpi3-114" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;dashed=1;dashPattern=8 8;strokeWidth=2;" edge="1" parent="1" source="PqdqEDUBdjDF1gWttpi3-97" target="PqdqEDUBdjDF1gWttpi3-113">
@@ -200,7 +206,7 @@
         <mxCell id="PqdqEDUBdjDF1gWttpi3-177" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="PqdqEDUBdjDF1gWttpi3-99" target="PqdqEDUBdjDF1gWttpi3-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PqdqEDUBdjDF1gWttpi3-99" value="Wert /L3 S/W&lt;div&gt;148 SW1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;arcSize=50;fontFamily=Helvetica;fontSize=28;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
+        <mxCell id="PqdqEDUBdjDF1gWttpi3-99" value="Wert /L3 S/W&lt;div&gt;148 SW1&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=middle;arcSize=50;fontFamily=Helvetica;fontSize=28;fontColor=default;fillColor=#F0F0F0;gradientColor=none;" vertex="1" parent="1">
           <mxGeometry x="1800" y="-30" width="480" height="130" as="geometry" />
         </mxCell>
         <mxCell id="PqdqEDUBdjDF1gWttpi3-106" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="PqdqEDUBdjDF1gWttpi3-102" target="PqdqEDUBdjDF1gWttpi3-104">
@@ -251,7 +257,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="PqdqEDUBdjDF1gWttpi3-136" value="INTERNET" style="ellipse;whiteSpace=wrap;html=1;rounded=1;align=center;verticalAlign=middle;arcSize=50;fontFamily=Helvetica;fontSize=31;fontColor=default;fillColor=none;gradientColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1782.5" y="-830" width="520" height="190" as="geometry" />
+          <mxGeometry x="1782.5" y="-960" width="520" height="190" as="geometry" />
         </mxCell>
         <mxCell id="PqdqEDUBdjDF1gWttpi3-140" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Helvetica;fontSize=12;fontColor=default;curved=1;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1" source="PqdqEDUBdjDF1gWttpi3-99" target="PqdqEDUBdjDF1gWttpi3-113">
           <mxGeometry relative="1" as="geometry">
@@ -316,8 +322,38 @@
         <mxCell id="PqdqEDUBdjDF1gWttpi3-183" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.398;entryY=0.016;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Helvetica;fontSize=12;fontColor=default;curved=1;fillColor=#6a00ff;strokeColor=#3700CC;" edge="1" parent="1" source="PqdqEDUBdjDF1gWttpi3-178" target="PqdqEDUBdjDF1gWttpi3-78">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PqdqEDUBdjDF1gWttpi3-190" value="대역 구분&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;애플리케이션용&amp;nbsp;&lt;/div&gt;&lt;div&gt;112,175.148.xxx/24&lt;/div&gt;&lt;div&gt;211.62.58.xxx/24&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;데이타용 - ES and ETC&amp;nbsp;&lt;/div&gt;&lt;div&gt;43.246.154.xxx/24&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=30;fontColor=default;" vertex="1" parent="1">
-          <mxGeometry x="810" y="-605" width="440" height="360" as="geometry" />
+        <mxCell id="PqdqEDUBdjDF1gWttpi3-209" value="AWS Cloud" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_aws_cloud_alt;verticalAlign=top;align=left;spacingLeft=30;dashed=0;rounded=1;arcSize=50;fontFamily=Helvetica;" vertex="1" parent="1">
+          <mxGeometry x="3610" y="-1360" width="2890" height="890" as="geometry" />
+        </mxCell>
+        <mxCell id="PqdqEDUBdjDF1gWttpi3-213" value="VPC" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;container=1;pointerEvents=0;collapsible=0;recursiveResize=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc2;strokeColor=#8C4FFF;fillColor=none;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;rounded=1;arcSize=50;fontFamily=Helvetica;" vertex="1" parent="PqdqEDUBdjDF1gWttpi3-209">
+          <mxGeometry x="280" y="225" width="600" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="PqdqEDUBdjDF1gWttpi3-215" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#8C4FFF;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.cloudfront;rounded=1;arcSize=50;fontFamily=Helvetica;" vertex="1" parent="PqdqEDUBdjDF1gWttpi3-213">
+          <mxGeometry x="50" y="81" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="PqdqEDUBdjDF1gWttpi3-211" value="Generic group" style="dashed=1;verticalAlign=top;fontStyle=0;whiteSpace=wrap;html=1;rounded=1;align=left;arcSize=50;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="-50" y="-1270" width="1220" height="860" as="geometry" />
+        </mxCell>
+        <mxCell id="PqdqEDUBdjDF1gWttpi3-217" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="PqdqEDUBdjDF1gWttpi3-205" target="PqdqEDUBdjDF1gWttpi3-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PqdqEDUBdjDF1gWttpi3-205" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.business_center;rounded=1;arcSize=50;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="940" y="-1040" width="360" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="PqdqEDUBdjDF1gWttpi3-216" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="1" source="PqdqEDUBdjDF1gWttpi3-198" target="PqdqEDUBdjDF1gWttpi3-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PqdqEDUBdjDF1gWttpi3-202" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="3330" y="-1030" width="530" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="PqdqEDUBdjDF1gWttpi3-198" value="ㅁㅉㄴ" style="html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.cloud;fontColor=#ffffff;rounded=1;align=left;verticalAlign=top;arcSize=50;fontFamily=Helvetica;fontSize=12;" vertex="1" parent="PqdqEDUBdjDF1gWttpi3-202">
+          <mxGeometry width="530" height="330.00000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="PqdqEDUBdjDF1gWttpi3-201" value="AWS" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Helvetica;fontSize=30;fontColor=default;" vertex="1" parent="PqdqEDUBdjDF1gWttpi3-202">
+          <mxGeometry x="222.25806451612905" y="82.50000000000001" width="170.96774193548384" height="231" as="geometry" />
+        </mxCell>
+        <mxCell id="PqdqEDUBdjDF1gWttpi3-212" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontFamily=Helvetica;fontSize=12;fontColor=default;" edge="1" parent="PqdqEDUBdjDF1gWttpi3-202" source="PqdqEDUBdjDF1gWttpi3-201" target="PqdqEDUBdjDF1gWttpi3-201">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
